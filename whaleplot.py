@@ -34,4 +34,4 @@ gdf = GeoDataFrame(df, geometry=geometry)
 world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
 gdf.plot(ax=world.plot(figsize=(10, 6)), marker='^', color='orange', markersize=20)
 
-plt.savefig('world.jpg')
+plt.savefig('static/world.jpg')
